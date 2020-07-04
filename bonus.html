@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ABOUT</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<style>
+	body
+	{
+		
+                 background-image: url('https://www.investopedia.com/thmb/spfLaJj0LkGnU3LwR10SWvJPkEo=/2600x1294/filters:fill(auto,1)/GettyImages-1153657433_2600-573e917e27f9442eb87ac10f45ce43ea.jpg');
+}
+
+</style>
+
+<body >
+<div class="container"><h1 style="color:white">CURRENCY CONVERTER</h1><br>
+	
+	<input type="text" class="form-control" id="t1" placeholder="GIVE THE AMOUNT" value="1"><br><br>
+	From:
+	<div class="form-group">
+	<select id="from" class="custom-select">
+		<option value="USD" selected>USD</option>
+		<option value="AUD">Australian dollar</option>
+		<option value="INR" >INR</option>
+		<option value="JPY">Japanese Yen(JY)</option>
+		<option value="CAD">Canadian Dollar</option></select><br><br><br><br>
+		To:
+		<div class="form-group">
+
+		<select id="to" class="custom-select">
+		<option value="USD" >USD</option>
+		<option value="AUD">Australian dollar</option>
+		<option value="INR" selected>INR</option>
+		<option value="JPY">Japanese Yen(JPY)</option>
+		<option value="CAD">Canadian Dollar</option></select></div><br><br>
+	<input type="text" class="form-control" id="t2" placeholder="Output is" disabled><br><br><br>
+	<center><button class="btn btn-danger" onclick='convert();'>CLICK HERE TO CONVERT</button></center>&nbsp; &nbsp; &nbsp; 
+
+	
+
+</div>
+<script src="all.js"></script>
+</body>
+</html>
